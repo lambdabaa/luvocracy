@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Twitter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body onload="twitter.App.init()">
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container-fluid">
+        <a class="brand" href="#!">Twitter &hearts;</a>
+      </div>
+    </div>
+  </div>
+  <div class="container-narrow">
+    <div class="dashboard container-fluid">
+      <div class="row-fluid">
+        <div class="tweet-builder span4">
+          <div class="well">
+            <div class="profile">
+              <img class="profile-pic" src="borat.jpg" alt="profile picture">
+              <strong>Devops Borat</strong>
+            </div>
+            <br />
+            <textarea class="tweet-form" placeholder="Compose new tweet..."></textarea>
+            <button class="tweet-button btn btn-primary">Tweet</button>
+          </div>
+        </div>
+        <div class="tweet-list span8"></div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="application.js"></script>
+</body>
+</html>

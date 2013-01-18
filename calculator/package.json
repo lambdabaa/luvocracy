@@ -1,0 +1,10 @@
+{
+  "name": "calculator",
+  "version": "0.0.1",
+  "author": "Gareth Aye <gareth.aye@gmail.com>",
+  "description": "My solution to Luvocracy's problem 1",
+  "dependencies": {
+    "mocha": "1.8.1",
+    "should": "1.2.1"
+  }
+}

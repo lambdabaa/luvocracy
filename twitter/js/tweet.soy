@@ -1,0 +1,21 @@
+
+{namespace twitter.tweet}
+
+
+
+/**
+ * The ui for a tweet.
+ * @param tweet
+ * @param timestamp
+ */
+{template .main}
+  <img class="profile-pic" src="borat.jpg" alt="profile picture">
+  <div class="tweet-text">
+    <strong>Devops Borat</strong> on {$timestamp}
+    <br />
+    {$tweet}
+    <br />
+    <a href="#!">Reply</a> <a href="#!">Favorite</a>
+  </div>
+  <hr class="tweet-line">
+{/template}
